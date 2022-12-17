@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Fiverr Gig Card</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="slider">
+                <span onclick="goNext()" class="arrow next"><i class="fa-solid fa-chevron-right"></i></span>
+                <span onclick="goPrv()" class="arrow prev"><i class="fa-solid fa-chevron-left"></i></span>
+                <div class="slide"><img src="images/photo1.jpg" alt=""></div>
+                <div class="slide"><img src="images/photo2.jpg" alt=""></div>
+                <div class="slide"><img src="images/photo3.jpg" alt=""></div>
+                <div class="slide"><img src="images/photo4.jpg" alt=""></div>
+                <div class="slide"><img src="images/photo5.jpg" alt=""></div>
+            </div>
+
+            <!-- User Details -->
+            <div class="user_details">
+                <img src="images/lara.png" alt="">
+                <h4>mrizwan <br><small>Top Rated Saller</small></h4>
+            </div>
+
+            <!-- gig Title -->
+            <div class="title">
+                <h3>I will design awesome website or landing page</h3>
+            </div>
+            <!-- Gig rating -->
+            <div class="rating">
+                <i class="fa-solid fa-star"></i> 5.0 <span>(900)</span>
+            </div>
+
+            <!-- Gig Footer -->
+            <div class="card_footer">
+                <div class="icon-list">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="price">
+                    Starting at <span>$US300</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="codejs.js"></script>
+</body>
+</html>
